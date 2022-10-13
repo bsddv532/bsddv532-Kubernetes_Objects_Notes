@@ -15,13 +15,13 @@ In Kubernetes, namespaces provides a mechanism for isolating groups of resources
 
 To create namespace :-
 
-    `kubectl create namespace [namespace-name]`
+    kubectl create namespace [namespace-name]
 
 To check the Namespaces :-
 
-    `kubectl get namespace`
+    kubectl get namespace
 
-    `kubectl get ns`
+    kubectl get ns
 
 
 ## Pods
@@ -32,13 +32,13 @@ As well as application containers, a Pod can contain init containers that run du
 
 To check the pods :-
 
-    `kubectl get pods`
+    kubectl get pods
 
 
 ## ReplicaSet
 A ReplicaSet's purpose is to maintain a stable set of replica Pods running at any given time. As such, it is often used to guarantee the availability of a specified number of identical Pods
 
-    `kubectl get rs`
+    kubectl get rs
 
 
 ## Deployments
